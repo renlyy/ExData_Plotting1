@@ -39,11 +39,11 @@ with(subdata, plot(Time, Sub_metering_1,
                    xlab = "", 
                    ylab = "Energy sub metering"))
 
-with(subdata, points(Time, Sub_metering_2, 
+with(subdata, lines(Time, Sub_metering_2, 
                      type = "l", 
                      col = "red"))
 
-with(subdata, points(Time, Sub_metering_3, 
+with(subdata, lines(Time, Sub_metering_3, 
                      type = "l", 
                      col = "blue"))
 
